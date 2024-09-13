@@ -1,0 +1,69 @@
+.herro {
+  background: url(../../assets/images/lean-bg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 527px;
+  display: flex;
+
+  &-wrapper {
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-info {
+      span {
+        /* fontFootnote */
+        color: rgb(44, 45, 46);
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+      h1 {
+        /* H1 */
+        color: rgb(44, 45, 46);
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin: 29px 0 17px 0;
+      }
+      p {
+        /* fontBody */
+        color: rgb(44, 45, 46);
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: left;
+      }
+
+      .slider {
+        margin-top: 104px;
+      }
+    }
+    &-social {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      svg {
+        color: rgb(239, 124, 0);
+        /* vk */
+        width: 26px;
+        height: 26px;
+        left: 1280px;
+        right: -1280px;
+        top: 287px;
+        bottom: -187.93px;
+      }
+    }
+  }
+}
