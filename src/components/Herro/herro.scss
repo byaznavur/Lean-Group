@@ -67,3 +67,82 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .herro {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 527px;
+    display: flex;
+    width: 100%;
+    &-wrapper {
+      width: 1366px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      &-info {
+        span {
+          /* fontFootnote */
+          color: rgb(44, 45, 46);
+          font-family: Montserrat;
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 13px;
+          letter-spacing: 0px;
+          text-align: center;
+        }
+        h1 {
+          /* H1 */
+          color: rgb(44, 45, 46);
+          font-family: Montserrat;
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 40px;
+          letter-spacing: 0px;
+          text-align: center;
+          margin: 29px 0 17px 0;
+        }
+        p {
+          /* fontBody */
+          color: rgb(44, 45, 46);
+          font-family: Montserrat;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0%;
+          text-align: center;
+        }
+
+        .btn-cataolog {
+          width: 100%;
+          margin: 30px auto;
+        }
+
+        .slider {
+          margin: 30px;
+          text-align: center;
+        }
+      }
+      &-social {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+
+        svg {
+          color: rgb(239, 124, 0);
+          /* vk */
+          width: 26px;
+          height: 26px;
+          left: 1280px;
+          right: -1280px;
+          top: 287px;
+          bottom: -187.93px;
+        }
+      }
+    }
+  }
+}

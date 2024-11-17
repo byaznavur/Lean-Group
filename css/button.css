@@ -1,0 +1,22 @@
+.btn-cataolog {
+  border-radius: 4px;
+  background: rgb(239, 124, 0);
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  margin-top: 16px;
+  cursor: pointer;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.btn-cataolog:hover {
+  background: rgb(145, 125, 109);
+}
+
+.btn-dot {
+  background: rgb(239, 124, 0);
+  border-radius: 50%;
+  padding: 5px;
+  border: none;
+  margin-right: 10px;
+}/*# sourceMappingURL=button.css.map */

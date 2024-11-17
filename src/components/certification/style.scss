@@ -1,0 +1,61 @@
+.certification {
+  h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cards {
+    .slick-list {
+      margin: 0 -20px; // har bir card atrofida bo‘sh joy yaratish uchun
+    }
+
+    .slick-slide {
+      padding: 0 20px; // har bir card o‘rtasida masofa qo‘shish uchun
+    }
+
+    .certification-card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    img {
+      height: 284px;
+      width: 201px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    button.slick-arrow {
+      background: rgb(239, 124, 0);
+
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      font-size: 12px;
+    }
+  }
+}
+
+// Kichik ekranlar uchun responsiv uslublar
+@media screen and (max-width: 768px) {
+  .certification {
+    h2 {
+      font-size: 24px;
+    }
+    .cards {
+      gap: 20px;
+
+      img {
+        height: 200px;
+        width: 150px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
