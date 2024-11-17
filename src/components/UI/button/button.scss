@@ -18,3 +18,50 @@
   border: none;
   margin-right: 10px;
 }
+
+.btn-products {
+  border-radius: 4px;
+  background: rgb(239, 124, 0);
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  &:hover {
+    background: rgb(145, 125, 109);
+  }
+}
+
+.contact-btn {
+  border-radius: 4px;
+  background: rgb(239, 124, 0);
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  &:hover {
+    background: rgb(145, 125, 109);
+  }
+}
+
+.btnTeam {
+  border-radius: 4px;
+  background: rgb(239, 124, 0);
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  &:hover {
+    background: rgb(145, 125, 109);
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn-products {
+    width: 100%;
+  }
+}

@@ -1,0 +1,160 @@
+.team {
+  h2 {
+    /* H1 */
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .teamPerson {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    .teamCard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      width: 210px;
+      gap: 10px;
+
+      h3 {
+        /* H4 */
+        color: rgb(44, 45, 46);
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+
+      p {
+        /* fontFootnote */
+        color: rgb(145, 147, 153);
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+
+      span {
+        /* fontFootnote */
+        color: rgb(44, 45, 46);
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+
+      a {
+        /* fontFootnote */
+        color: rgb(44, 45, 46);
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+    }
+  }
+
+  .btnTeam {
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    margin: 50px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+    h2 {
+      /* H1 */
+      font-family: Montserrat;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+
+    .teamPerson {
+      display: flex;
+      align-items: start;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      .teamCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        width: 210px;
+        gap: 10px;
+
+        h3 {
+          /* H4 */
+          color: rgb(44, 45, 46);
+          font-family: Montserrat;
+          font-size: 15px;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 0px;
+          text-align: center;
+        }
+
+        p {
+          /* fontFootnote */
+          color: rgb(145, 147, 153);
+          font-family: Montserrat;
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 13px;
+          letter-spacing: 0px;
+          text-align: center;
+        }
+
+        span {
+          /* fontFootnote */
+          color: rgb(44, 45, 46);
+          font-family: Montserrat;
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 13px;
+          letter-spacing: 0px;
+          text-align: center;
+        }
+
+        a {
+          /* fontFootnote */
+          color: rgb(44, 45, 46);
+          font-family: Montserrat;
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 13px;
+          letter-spacing: 0px;
+          text-align: center;
+        }
+      }
+    }
+
+    .btnTeam {
+      display: flex;
+      justify-content: center !important;
+      align-items: center;
+      margin: 50px auto;
+      width: 100%;
+    }
+  }
+}

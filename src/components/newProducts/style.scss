@@ -1,0 +1,127 @@
+.Products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  h3 {
+    /* H1 */
+    color: rgb(44, 45, 46);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .newCards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    h4 {
+      /* fontFootnote */
+      color: rgb(145, 147, 153);
+      font-family: Montserrat;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 13px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+
+    p {
+      /* H3 */
+      color: rgb(44, 45, 46);
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+
+  .cardButton {
+    box-sizing: border-box;
+    border: 1px solid rgb(239, 124, 0);
+    border-radius: 4px;
+    color: rgb(239, 124, 0);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    h3 {
+      /* H1 */
+      color: rgb(44, 45, 46);
+      font-family: Montserrat;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      letter-spacing: 0px;
+      text-align: center;
+    }
+
+    .newCards {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      img {
+        width: 100%;
+      }
+      h4 {
+        /* fontFootnote */
+        color: rgb(145, 147, 153);
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      p {
+        /* H3 */
+        color: rgb(44, 45, 46);
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+    }
+
+    .cardButton {
+      box-sizing: border-box;
+      border: 1px solid rgb(239, 124, 0);
+      border-radius: 4px;
+      color: rgb(239, 124, 0);
+      font-family: Montserrat;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: center;
+      padding: 5px 10px;
+      width: 100%;
+    }
+  }
+}

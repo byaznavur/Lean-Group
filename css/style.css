@@ -1,54 +1,150 @@
-.certification h2 {
-  font-family: Montserrat;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 40px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-.certification .cards .slick-list {
-  margin: 0 -20px;
-}
-.certification .cards .slick-slide {
-  padding: 0 20px;
-}
-.certification .cards .certification-card {
+.Products {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100%;
+  gap: 20px;
 }
-.certification .cards img {
-  height: 284px;
-  width: 201px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  border-radius: 8px;
+.Products h3 {
+  /* H1 */
+  color: rgb(44, 45, 46);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
 }
-.certification .cards button.slick-arrow {
-  background: rgb(239, 124, 0);
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  font-size: 12px;
+.Products .newCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.Products .newCards h4 {
+  /* fontFootnote */
+  color: rgb(145, 147, 153);
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.Products .newCards p {
+  /* H3 */
+  color: rgb(44, 45, 46);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.Products .cardButton {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid rgb(239, 124, 0);
+  border-radius: 4px;
+  color: rgb(239, 124, 0);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 5px 10px;
 }
 
 @media screen and (max-width: 768px) {
-  .certification h2 {
-    font-size: 24px;
-  }
-  .certification .cards {
+  .Products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     gap: 20px;
   }
-  .certification .cards img {
-    height: 200px;
-    width: 150px;
-    margin: 0 auto;
+  .Products h3 {
+    /* H1 */
+    color: rgb(44, 45, 46);
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .Products .newCards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Products .newCards img {
+    width: 100%;
+  }
+  .Products .newCards h4 {
+    /* fontFootnote */
+    color: rgb(145, 147, 153);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .Products .newCards p {
+    /* H3 */
+    color: rgb(44, 45, 46);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .Products .cardButton {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid rgb(239, 124, 0);
+    border-radius: 4px;
+    color: rgb(239, 124, 0);
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding: 5px 10px;
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
