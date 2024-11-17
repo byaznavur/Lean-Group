@@ -1,5 +1,9 @@
 import "./navbar.scss";
-const Navbar = () => {
+const Navbar = (props) => {
+  const { open } = props;
+
+  console.log(open);
+
   const navs = [
     "Продукция",
     "Сертификаты",
@@ -11,7 +15,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav>
+    <nav className={`${open ? "" : "show"}`}>
       {navs.map((nav, i) => (
         <a key={i} href="#">
           {nav}

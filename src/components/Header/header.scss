@@ -6,4 +6,29 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  .burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    position: relative;
+    .burger {
+      display: block;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2px;
+      font-size: 30px;
+      border: none;
+      background: #fff;
+    }
+
+    .changeLang {
+      display: none;
+    }
+  }
 }
